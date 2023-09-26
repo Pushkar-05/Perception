@@ -29,4 +29,24 @@ This project demonstrates how to integrate YOLO (You Only Look Once) and Darknet
 
 ### Installation
 
-1. Clone this repository:
+1. Clone this repository: git clone https://github.com/Pushkar-05/Perception.git
+   
+2. Build and compile your ROS workspace.
+
+3. Launch the PR2 robot and the object detection node: roslaunch your_package_name pr2_object_detection.launch
+
+
+### Usage
+
+- Customize the object detection logic in the `object_detection_node.cpp` file to suit your specific needs.
+- Monitor object and human detection in real-time by subscribing to the `/darknet_ros/bounding_boxes` topic.
+
+
+## Contact
+
+- Pushkar Shinde
+- pps7160@nyu.edu
+- LinkedIn Profile: [[Your LinkedIn Profile URL](https://www.linkedin.com/in/pushkar-shinde/)]
+
+
+
